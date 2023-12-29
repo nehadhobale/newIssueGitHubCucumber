@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-22T20:08:48 IST" name="Default Suite" finished-at="2023-09-22T20:08:58 IST" duration-ms="10217">
+    <groups>
+    </groups>
+    <test started-at="2023-09-22T20:08:48 IST" name="RestarTestProject" finished-at="2023-09-22T20:08:58 IST" duration-ms="10217">
+      <class name="com.restar.testCases.NewIssueTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.restar.testCases.NewIssueTest@23f7d05d]" started-at="2023-09-22T20:08:43 IST" name="setup" finished-at="2023-09-22T20:08:48 IST" duration-ms="4469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_newIssue_functionality()[pri:0, instance:com.restar.testCases.NewIssueTest@23f7d05d]" started-at="2023-09-22T20:08:48 IST" name="verify_newIssue_functionality" finished-at="2023-09-22T20:08:58 IST" duration-ms="10168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_newIssue_functionality -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:com.restar.testCases.NewIssueTest@23f7d05d]" started-at="2023-09-22T20:08:58 IST" name="cleanUp" finished-at="2023-09-22T20:08:58 IST" duration-ms="354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.restar.testCases.NewIssueTest -->
+    </test> <!-- RestarTestProject -->
+  </suite> <!-- Default Suite -->
+</testng-results>
