@@ -3,7 +3,7 @@
 <suite name="Default Suite" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="GitHubNewIssueCucumberProject">
     <classes>
-      <class name="com.restar.testCases.NewIssueTest"/>
+      <class name="com.gitcucumber.testrunner.NewIssueRunner"/>
     </classes>
   </test> <!-- GitHubNewIssueCucumberProject -->
 </suite> <!-- Default Suite -->

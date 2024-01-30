@@ -16,6 +16,7 @@ public class LoginPage {
     private By password =By.xpath("//input[@id='password']");
     private By signIn =By.xpath("//input[@name='commit']");
 
+
     public void doLogin(String userid,String pass){
         driver.get("https://github.com/login");
         driver.manage().window().maximize();

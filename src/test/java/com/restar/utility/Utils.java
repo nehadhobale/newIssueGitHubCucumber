@@ -12,6 +12,8 @@ import java.util.Random;
 
 public class Utils {
 
+
+
     public static Properties getProperties(String name) {
         try {
             File f1 = new File("src//test//resources//" + name + "Data.properties");

@@ -17,7 +17,7 @@ public class ProjectPage {
     By newIssue = By.xpath("//span[@class='d-none d-md-block']");
     By title = By.xpath("//input[@id='issue_title']");
     By comment = By.xpath("//textarea[@id='issue_body']");
-    By submit = By.xpath("//div[@class='flex-items-center flex-justify-end d-none d-md-flex mx-2 mb-2 px-0']/button");
+    By submit = By.xpath("//button[@class='btn-primary btn ml-2']");
 
     public void createNewIssue(String issueTitle,String issueComment){
         //click on the issue tab
